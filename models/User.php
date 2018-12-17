@@ -101,7 +101,11 @@ class User extends ActiveRecord
             $mailer->setFrom('imooc_shop@163.com');
             $mailer->setTo($data['User']['useremail']);
             $mailer->setSubject('慕课商城-新建用户');
-            if ($mailer->send() && $this->reg($data, 'regbymail')) {
+            /*if ($mailer->send() && $this->reg($data, 'regbymail')) {
+                return true;
+            }*/
+            // 调用redismailer\mailerquene\Message的 quene 存储
+            if ($mailer->quene() && $this->reg($data, 'regbymail')) {
                 return true;
             }
         }

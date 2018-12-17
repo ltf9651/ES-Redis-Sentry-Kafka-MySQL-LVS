@@ -10,7 +10,35 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',
+    'aliases' =>[
+      '@redismailer/mailerquene' => '@vendor/redismailer/mailerquene/src' //指定别名d
+    ],
     'components' => [
+        'mailer' => [
+//            'class' => 'yii\swiftmailer\Mailer',
+            'class' => 'redismailer\mailerquene\MailerQuene',
+            'db' => '1',
+            'key' => 'mails',
+            // send all mails to a file by default. You have to set
+            // 'useFileTransport' to false and configure a transport
+            // for the mailer to send real emails.
+            'useFileTransport' => false,
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'host' => 'smtp.163.com',
+                'username' => 'imooc_shop@163.com',
+                'password' => 'imooc123',
+                'port' => '465',
+                'encryption' => 'ssl',
+            ],
+
+        ],
+        'redis' => [
+            'class' => 'yii\redis\Connection',
+            'hostname' => 'localhost',
+            'port' => 6379,
+            'database' => 0,
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

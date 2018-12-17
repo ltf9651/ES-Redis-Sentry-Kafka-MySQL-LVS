@@ -7,6 +7,9 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'defaultRoute' => 'index',
+    'aliases' =>[
+      '@redismailer/mailerquene' => '@vendor/redismailer/mailerquene/src' //指定别名d
+    ],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -23,7 +26,10 @@ $config = [
             'errorAction' => 'site/error',
         ],
         'mailer' => [
-            'class' => 'yii\swiftmailer\Mailer',
+//            'class' => 'yii\swiftmailer\Mailer',
+            'class' => 'redismailer\mailerquene\MailerQuene',
+            'db' => '1',
+            'key' => 'mails',
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.

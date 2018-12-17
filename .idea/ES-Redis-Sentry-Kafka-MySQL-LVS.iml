@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/jquery.inputmask" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/typeahead.js" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower-asset/yii2-pjax" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower/jquery.inputmask" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower/typeahead.js" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bower/yii2-pjax" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cebe/markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dzer/yii2-express" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpspec/php-diff" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/qqlogin/class" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/qqlogin/comm" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/redismailer/mailerquene" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-codeception" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-faker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-gii" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-redis" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/yii2-swiftmailer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
