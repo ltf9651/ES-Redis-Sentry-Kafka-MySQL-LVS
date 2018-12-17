@@ -1,0 +1,1225 @@
+2018-12-16 05:59:37 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 05:59:37 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://ltfnevergiveup.cn/yii2_shop/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20313'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544939977.117
+    'REQUEST_TIME' => 1544939977
+]
+2018-12-16 05:59:53 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 05:59:53 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://ltfnevergiveup.cn/yii2_shop/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544939993.726
+    'REQUEST_TIME' => 1544939993
+]
+2018-12-16 06:06:17 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:06:17 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://ltfnevergiveup.cn/yii2_shop/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20654'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940377.646
+    'REQUEST_TIME' => 1544940377
+]
+2018-12-16 06:07:12 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:07:12 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20744'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940432
+    'REQUEST_TIME' => 1544940432
+]
+2018-12-16 06:07:21 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:07:21 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20763'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940441.511
+    'REQUEST_TIME' => 1544940441
+]
+2018-12-16 06:07:58 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:07:58 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20792'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940478.609
+    'REQUEST_TIME' => 1544940478
+]
+2018-12-16 06:08:15 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:08:15 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20803'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940495.279
+    'REQUEST_TIME' => 1544940495
+]
+2018-12-16 06:08:45 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:08:45 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20826'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940525.607
+    'REQUEST_TIME' => 1544940525
+]
+2018-12-16 06:08:57 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:08:57 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20839'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940537.604
+    'REQUEST_TIME' => 1544940537
+]
+2018-12-16 06:13:56 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:13:56 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20969'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940836.593
+    'REQUEST_TIME' => 1544940836
+]
+2018-12-16 06:14:27 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:14:27 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '20997'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940867.539
+    'REQUEST_TIME' => 1544940867
+]
+2018-12-16 06:14:44 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:14:44 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '21008'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940884.975
+    'REQUEST_TIME' => 1544940884
+]
+2018-12-16 06:15:59 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:15:59 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '21023'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544940959.671
+    'REQUEST_TIME' => 1544940959
+]
+2018-12-16 06:17:17 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:17:17 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '21063'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544941037.161
+    'REQUEST_TIME' => 1544941037
+]
+2018-12-16 06:19:19 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:19:19 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '21108'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544941159.524
+    'REQUEST_TIME' => 1544941159
+]
+2018-12-16 06:20:41 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:20:41 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '21142'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544941241.487
+    'REQUEST_TIME' => 1544941241
+]
+2018-12-16 06:21:14 [120.42.180.211][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 06:21:14 [120.42.180.211][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.42.180.211'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '21159'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544941274.712
+    'REQUEST_TIME' => 1544941274
+]
+2018-12-16 13:28:20 [218.5.156.82][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 13:28:20 [218.5.156.82][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1542893270'
+    'PHPSESSID' => 'bt960dejjllf3r6c91agfim753'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1542893270; PHPSESSID=bt960dejjllf3r6c91agfim753'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '218.5.156.82'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '7495'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544966900.315
+    'REQUEST_TIME' => 1544966900
+]
+2018-12-16 22:18:52 [203.208.60.121][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /var/www/html/yii2_shop/web/assets' 
+
+in /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /var/www/html/yii2_shop/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /var/www/html/yii2_shop/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /var/www/html/yii2_shop/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /var/www/html/yii2_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /var/www/html/yii2_shop/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 /var/www/html/yii2_shop/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-12-16 22:18:51 [203.208.60.121][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.ltfnevergiveup.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_FROM' => 'googlebot(at)googlebot.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,br'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at www.ltfnevergiveup.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'www.ltfnevergiveup.cn'
+    'SERVER_ADDR' => '172.16.16.10'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '203.208.60.121'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/html/yii2_shop/web/index.php'
+    'REMOTE_PORT' => '36694'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_shop/web/'
+    'SCRIPT_NAME' => '/yii2_shop/web/index.php'
+    'PHP_SELF' => '/yii2_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1544998731.113
+    'REQUEST_TIME' => 1544998731
+]
