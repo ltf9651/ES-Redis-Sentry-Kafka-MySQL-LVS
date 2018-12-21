@@ -72,6 +72,11 @@ $config = [
                 ],
             ],
         ],
+        'asyncLog' => [
+            'class' => '\\app\\models\\kafka',
+            'broker_list' => 'localhost:9092',
+            'topic' => 'asynclog'
+        ],
         'log' => [
             'targets' => [
                 [
