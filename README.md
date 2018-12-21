@@ -1,5 +1,5 @@
 # ES-Redis-Sentry-Kafka-MySQL-LVS
-###高级组件 ES/Redis/Sentry/Kafka 高性能MySQL集群 LVS
+### 高级组件 ES/Redis/Sentry/Kafka 高性能MySQL集群 LVS
 
 1. 搭建ElasticSearch全文检索引擎服务，通过ElaticSearch为我们提供的RESTful_API创建索引以及完成全文数据的检索和关键字的高亮处理
 
