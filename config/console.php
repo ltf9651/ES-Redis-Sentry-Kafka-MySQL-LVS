@@ -14,6 +14,11 @@ $config = [
       '@redismailer/mailerquene' => '@vendor/redismailer/mailerquene/src' //指定别名d
     ],
     'components' => [
+        'asyncLog' => [
+            'class' => '\\app\\models\\kafka',
+            'broker_list' => 'localhost:9092',
+            'topic' => 'asynclog'
+        ],
         'mailer' => [
 //            'class' => 'yii\swiftmailer\Mailer',
             'class' => 'redismailer\mailerquene\MailerQuene',
@@ -48,6 +53,14 @@ $config = [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
                 ],
+                [
+                    'class' => 'yii\log\FileTarget',
+                    'levels' => ['info'],
+                    'category' => 'testkafka',
+                    'logVars' => [],
+                    'exportInterval' => 1,
+                    'logFile' => '@app\runtime\logs\Kafka.log'
+                ]
             ],
         ],
         'db' => $db,

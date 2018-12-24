@@ -9,6 +9,6 @@
 
 1. 使用Sentry进行错误日志的收集和开发人员处理错误的管理，Kafka消息队列
 
-1. 搭建高性能、高可用的MySQL集群架构（MySQL的主从复制、双主热备的实现，以及使用数据库中间件MyCAT进行MySQL数据的读写分离、心跳检测和数据表水平分片分库处理）
+1. [数据库优化](https://github.com/ltf9651/Blog)
 
 1. LVS负载均衡技术的NAT模式、DR模式以及IP-TUNNELING模式的工作原理及实现方式
